@@ -18,5 +18,4 @@ http://localhost:8083/ratingsdata/transformer
 | ------       | ------       |
 | Java         |  "1.8.0_161" |
 | Apache Maven |  "3.8.5"     |
-
-
+| Spring Boot  |  "2.7.2"     |
