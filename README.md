@@ -90,5 +90,7 @@ eureka.client.fetchRegistry=false
 	 </dependencies>
 	</dependencyManagement>
 ```
+> it works default with 8761 port but if you change port then you have to specify a url in each eureka client like : eureka.client.servicUrl.defaultZone=http://localhost:7777/eureka
+
 
 
