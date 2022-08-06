@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class RatingsDataServiceApplication {
 
 	// API: http://localhost:8083/ratingsdata/transformer
+	// API: http://localhost:8083/ratingsdata/users/vijay
 	public static void main(String[] args) {
 		SpringApplication.run(RatingsDataServiceApplication.class, args);
 	}

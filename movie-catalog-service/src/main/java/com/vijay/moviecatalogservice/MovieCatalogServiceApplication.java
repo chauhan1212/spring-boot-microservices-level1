@@ -15,11 +15,6 @@ public class MovieCatalogServiceApplication {
 	public RestTemplate getRestTemplate() {
 		return new RestTemplate();
 	};
-	
-	@Bean
-	public WebClient.Builder getWebClientBuilder() {
-		return WebClient.builder();
-	}
 
 	//API: http://localhost:8081/catalog/123
 	public static void main(String[] args) {
