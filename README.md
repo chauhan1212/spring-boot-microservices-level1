@@ -2,6 +2,15 @@
 
 From Video 17
 
+- start.spring.io -> Add only one dependency `Eureka Server`
+
+- application.properties
+```sh
+server.port=8761
+eureka.client.registerWithEureka=false
+eureka.client.fetchRegistry=false
+```
+
 | Software     | Version      |
 | ------       | ------       |
 | Java         |  "1.8.0_161" |
@@ -49,5 +58,10 @@ http://localhost:8083/ratingsdata/users/vijay
     }
   ]
 }
+```
+
+Eureka Server will have it's own UI.
+```
+http://localhost:8761/
 ```
 
