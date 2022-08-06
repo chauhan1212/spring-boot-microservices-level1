@@ -1,6 +1,6 @@
 > This project contains level01 by level commits.
 
-From Video 17
+From Video 17 to 23 (End of this course)
 
 | Software     | Version      |
 | ------       | ------       |
