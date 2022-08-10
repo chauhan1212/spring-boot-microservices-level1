@@ -2,6 +2,7 @@
 > Main commits contains videos from 1 to 10.
 > - This commit has 3 microservices with 3 Basic API Details.
 
+
 - MovieCatalogService (8081) :
 ```sh
 http://localhost:8081/catalog/1234
