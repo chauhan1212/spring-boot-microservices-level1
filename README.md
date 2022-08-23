@@ -8,6 +8,10 @@ From Video 17 to 23 (End of this course)
 | Apache Maven |  "3.8.5"     |
 | Spring Boot  |  "2.7.2"     |
 
+> Note: `JAVA_HOME` required to run `mvn package`
+
+> mvn package for generate jar file in target directory.
+
 - MovieCatalogService (8081) :
 ```sh
 http://localhost:8081/catalog/1234
