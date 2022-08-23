@@ -1,4 +1,4 @@
-> This project contains level01 by level commits.
+> v04  commits contains videos from 17 to 23.
 
 From Video 17 to 23 (End of this course)
 
@@ -11,7 +11,8 @@ From Video 17 to 23 (End of this course)
 - MovieCatalogService (8081) :
 ```sh
 http://localhost:8081/catalog/1234
-
+```
+```
 [
   {
     "name": "100",
@@ -29,13 +30,27 @@ http://localhost:8081/catalog/1234
 ```sh
 http://localhost:8082/movies/transformer
 ```
+```
+{
+  "movieId": "transformer",
+  "name": "Test Name",
+  "description": "Test Desc"
+}
+```
 - RatingsDataService (8083) :
 ```sh
 http://localhost:8083/ratingsdata/transformer
 ```
 ```
+{
+  "movieId": "transformer",
+  "rating": 4
+}
+```
+```
 http://localhost:8083/ratingsdata/users/vijay
-
+```
+```
 {
   "userId": "vijay",
   "ratings": [
