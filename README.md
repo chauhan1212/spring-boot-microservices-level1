@@ -10,7 +10,16 @@ From Video 17 to 23 (End of this course)
 
 > Note: `JAVA_HOME` required to run `mvn package`
 
-> mvn package for generate jar file in target directory.
+> `mvn package` or `mvn install` for generate jar file in target directory.
+
+```
+Run in cmd not in powershell:
+mvn package
+or mvn install
+it will generate jar file in target dir
+java -Dserver.port=8086 -jar movie-catalog-service-0.0.1-SNAPSHOT.jar
+java -Dserver.port=8086 -jar movie-info-service-0.0.1-SNAPSHOT.jar
+```
 
 - MovieCatalogService (8081) :
 ```sh
